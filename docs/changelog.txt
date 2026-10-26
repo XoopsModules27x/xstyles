@@ -1,4 +1,4 @@
-<h5>Development follow-up    2026-10-25</h5>
+<h5>1.5.0 Beta 2    2026-10-25</h5>
 <hr>
 - Add optional Qodana inspections and setup documentation; exclude scan configuration and reports from releases.
 - Use shared xoops_lib testing and quality tools; remove the module-local Composer manifest and vendor tree, and install CI tools outside the checkout.
@@ -6,7 +6,7 @@
 - Adopt the XOOPS 2.7 module-devops quality gate, PHP 8.2–8.5 CI, dependency updates and QA-gated releases for XoopsModules27x/xstyles.
 - Remove unused legacy icons, duplicate root images, extras stylesheet and prototype; custom templates must use assets/images/ for retained images.
 - Include the illustrated tutorial; exclude private docs/00 notes and development tooling from releases.
-- Combine the A workspace navigator with the C comparison view in both galleries; focus one example at a time and keep preview details collapsible.
+- Combine workspace navigation with side-by-side comparison in both galleries; focus one example at a time and keep preview details collapsible.
 - Share rounded controls and rendered-HTML panels across frontend and admin without restyling example controls.
 - Align comparison theme selectors with their panes and center shared controls; improve spacing and remove the redundant default-renderer line.
 - Scroll only the preview document when selecting an example, preserving the outer comparison toolbar position.
@@ -24,8 +24,6 @@
 - Verify both theme specimens through the cssHolmes save/publish/import/reset workflow.
 - Add explicit screenshot capture/comparison, Firefox and real Arabic-locale checks.
 
-<h5>1.5.0 Beta 2    2026-10-25</h5>
-<hr>
 - Preserve data attributes and quoted text when neutralizing preview markup.
 - Keep colour previews consistent after theme initialization; support explicit mode mappings.
 - Register bounded, isolated theme-supplied specimens through a JSON descriptor.

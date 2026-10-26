@@ -1,6 +1,12 @@
 # Changelog
 
-## Unreleased
+## 1.5.0 Beta 2 - 2026-10-25
+
+- Share workspace navigation, rounded controls and rendered-HTML panels across frontend and admin galleries.
+- Preview and compare admin themes without activating them; preserve comparison controls and scroll position. Frontend theme switching requires the newer core request-only override.
+- Add Bootstrap 6 Alpha and isolated theme-supplied examples using the selected theme's assets.
+- Restore the standard Home dashboard, admin tab order and Help layout; clarify user-facing terminology.
+- Preserve data attributes and quoted preview markup, stabilize colour previews, and report observed core form-label defects.
 
 - Add optional Qodana PHP inspections, token-gated CI and a setup guide without adding local development dependencies.
 
