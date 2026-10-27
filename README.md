@@ -1,4 +1,4 @@
-# xStyles 1.5
+# xStyles 1.5.0 Beta 3
 
 Preview how the current theme styles every common page element.
 
@@ -6,6 +6,9 @@ xStyles is a living style guide for XOOPS themes. It displays repeatable example
 using the active theme's real styles and form renderer. Designers may call this a
 "CSS specimen page": a collection of elements for checking their appearance together.
 The module creates no content tables, sample records or upload folders.
+
+This is a testing prerelease. See the [release notes](docs/RELEASE-1.5.0-beta.3.md)
+for installation, compatibility and the optional cssHolmes integration.
 
 ## Requirements
 
@@ -15,8 +18,10 @@ The module creates no content tables, sample records or upload folders.
 
 Isolated integration checks cover XOOPS 2.7.4 / Smarty 4.5.8 and XOOPS 2.8 /
 Smarty 5 using real core classes, templates, lifecycle callbacks and admin
-controllers without a database. A full database-backed installation/upgrade
-through the XOOPS 2.7 administrator still needs release testing.
+controllers without a database. The Beta 3 ZIP update was also checked through
+the real module updater on a disposable XOOPS 2.7.4-RC2 / PHP 8.4 site, including
+Home, Admin styles and the cssHolmes save/reload/restore workflow. A fresh
+installation of Beta 3 was not repeated in that smoke test.
 
 ## Use
 
